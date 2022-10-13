@@ -6,20 +6,17 @@ import {AngularFireModule} from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 import { NgModule } from '@angular/core';
-import { TitleCasePipe } from './title-case.pipe';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleCasePipe,
+    LikeComponent,
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     NgbModule,
-    FormsModule,
-    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],
