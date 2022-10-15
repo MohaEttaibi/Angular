@@ -6,12 +6,13 @@ import {AngularFireModule} from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 import { NgModule } from '@angular/core';
-import { LikeComponent } from './like/like.component';
+import { ZippyComponent } from './zippy/zippy.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LikeComponent,
+    ZippyComponent
   ],
   imports: [
     AppRoutingModule,

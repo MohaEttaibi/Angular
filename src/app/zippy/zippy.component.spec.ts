@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LikeComponent } from './like.component';
+import { ZippyComponent } from './zippy.component';
 
-describe('LikeComponent', () => {
-  let component: LikeComponent;
-  let fixture: ComponentFixture<LikeComponent>;
+describe('ZippyComponent', () => {
+  let component: ZippyComponent;
+  let fixture: ComponentFixture<ZippyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LikeComponent ]
+      declarations: [ ZippyComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LikeComponent);
+    fixture = TestBed.createComponent(ZippyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
