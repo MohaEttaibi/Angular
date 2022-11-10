@@ -6,18 +6,21 @@ import {AngularFireModule} from '@angular/fire/compat';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 import { NgModule } from '@angular/core';
-import { ZippyComponent } from './zippy/zippy.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ZippyComponent
+    NewCourseFormComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],

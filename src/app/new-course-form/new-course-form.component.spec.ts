@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ZippyComponent } from './zippy.component';
+import { NewCourseFormComponent } from './new-course-form.component';
 
-describe('ZippyComponent', () => {
-  let component: ZippyComponent;
-  let fixture: ComponentFixture<ZippyComponent>;
+describe('NewCourseFormComponent', () => {
+  let component: NewCourseFormComponent;
+  let fixture: ComponentFixture<NewCourseFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ZippyComponent ]
+      declarations: [ NewCourseFormComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ZippyComponent);
+    fixture = TestBed.createComponent(NewCourseFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
