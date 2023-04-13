@@ -10,7 +10,8 @@ import { BadInput } from '../common/bad-input';
 
 @Injectable()
 export class DataService {
-  private url = 'https://jsonplaceholder.typicode.com/posts';
+  // private url = 'https://jsonplaceholder.typicode.com/posts';
+  private url = 'https://api.github.com/users/mosh-hamedani/followers';
   constructor(private http: HttpClient) {}
 
   getAll() {
